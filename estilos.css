@@ -17,8 +17,8 @@
 }
 
 body {
-  font-family: 'open sans';
-  background: var(--fondo);
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 img{
@@ -34,6 +34,7 @@ img{
 /* Preloader */
 .hidden{
   overflow: hidden;
+
 }
 
 .centrado{
@@ -66,7 +67,11 @@ img{
 header{
   width: 100%;
   height:500px;
-  background: url(img/fondo.jpg);
+  background: linear-gradient(to bottom,
+  rgba(92, 118, 156, 0.6),
+  rgb(60, 189, 213, .6),
+  rgb(60, 189, 213, .45)
+  ), url(img/fondo1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -258,12 +263,12 @@ nav .enlaces a:hover{
 
 /*Modulo de informacion---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .introduccion
-{font-family: "open sans";
+{font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 line-height: 50px;
-letter-spacing: 3px;
+letter-spacing: 0px;
 text-align: justify;
 font-size: 30px;
 margin-right: 1000px;
@@ -543,7 +548,8 @@ margin-bottom:150px;
 
 .servicio-cont{
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
+  justify-content:center;
   align-items: center;
 }
 
@@ -561,7 +567,7 @@ margin-bottom:150px;
   margin: 10px 0;
   
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   
   color: #5b5a5d;
@@ -584,26 +590,26 @@ main .about-services
 main .contenedor p
 {
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 20px;
 
-letter-spacing: 2px;
+letter-spacing: 0;
 }
 main .contenedor h2
 {
   text-align: center;
-font-family: "open sans";
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 50px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 /*padding-right: 600px;
 padding-left: 140px;
 padding-top: 100px;
@@ -645,42 +651,42 @@ text-align: left;
 
 .layout h2
 {
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   
   font-size: 30px;
 
 }
 .layout p
 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #5b5a5d;
+  line-height: 50px;
+  letter-spacing: 0px;
   text-align: justify;
-  font-family: "open sans";
-font-style: normal;
-font-weight: 300;
-color: #5b5a5d;
+  font-size: 20px;
 
-line-height: 30px;
-
-letter-spacing: 3px;
 
 }
 main .contenedorinv2 h2
 {
   text-align: center;
-font-family: "open sans";
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 50px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 /*padding-right: 600px;
 padding-left: 140px;
 padding-top: 100px;
@@ -740,7 +746,7 @@ main .contenedorinv
   border-radius: .3em;
   transition: all .3s ease-out;   
   text-align: justify;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
@@ -748,7 +754,7 @@ color: #5b5a5d;
 
 line-height: 30px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 list-style-image: url(img/punta-de-flecha-derecha.png);
 }
 
@@ -776,14 +782,14 @@ dd {
   border-radius: .3em;
   transition: all .3s ease-out;  
   text-align: justify;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 margin-left: 20px;
 line-height: 30px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 
 }
 
@@ -867,14 +873,14 @@ text-align: left;
 
 .layout h2
 {
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   
   font-size: 30px;
 
@@ -882,27 +888,27 @@ text-align: left;
 .layout p
 {
   text-align: justify;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 30px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 
 }
 main .contenedorinv2 h2
 {
   text-align: center;
-font-family: "open sans";
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 50px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 /*padding-right: 600px;
 padding-left: 140px;
 padding-top: 100px;
@@ -981,14 +987,14 @@ div .col .s12 .m4 .l3
 
 #cot12 
 {
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   
   font-size: 30px;
 }
@@ -1018,7 +1024,7 @@ div .col .s12 .m4 .l3
 /*Footer--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .footer1 
 {
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
   background: #f2f2f2;
   padding: 60px 0;
@@ -1263,7 +1269,7 @@ main .about-services
 
 .introduccion p
 {
- font-size: 18px;
+ font-size: 100px;
 }
 }
 
@@ -1319,7 +1325,7 @@ list-style: none;
   border-radius: 50px;
  }
  .indice 
-  {background-color: white }
+  {background-color: white}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 
@@ -1349,7 +1355,7 @@ list-style: none;
   border-radius: .3em;
   transition: all .3s ease-out;   
   text-align: justify;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 
@@ -1357,7 +1363,7 @@ margin-left: 30px;
 
 line-height: 30px;
 
-letter-spacing: 1px;
+letter-spacing: 0px;
 list-style-image: url(img/flechas-a-la-derecha.png);
 }
 
@@ -1365,7 +1371,7 @@ list-style-image: url(img/flechas-a-la-derecha.png);
 {
   text-decoration: none; 
     color: black;
-    font-family: "open sans";
+    font-family: Arial, Helvetica, sans-serif;
     color: #444;
 }
 .contenedor_indice a:hover 
@@ -1403,14 +1409,14 @@ list-style-image: url(img/flechas-a-la-derecha.png);
   border-radius: .3em;
   transition: all .3s ease-out;  
   text-align: justify;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 30px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 
 }
 
@@ -1459,7 +1465,7 @@ main .contenedorinv2
 main .contenedor p
 {
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
@@ -1471,14 +1477,14 @@ letter-spacing: 2px;
 main .contenedor h2
 {
   text-align: center;
-font-family: "open sans";
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 50px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 /*padding-right: 600px;
 padding-left: 140px;
 padding-top: 100px;
@@ -1537,14 +1543,14 @@ font-size: 30px;
   font-size: 40px;
   
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   /*padding-right: 600px;
   padding-left: 140px;
   padding-top: 100px;
@@ -1557,7 +1563,7 @@ font-size: 30px;
   font-weight: 300;
   margin: 20px 0;
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 
@@ -1586,12 +1592,12 @@ letter-spacing: 2px;
   font-size: 50px;
   font-weight: 100px;
   color: #5D6678;
-  letter-spacing: 3px;
-  font-family: "open sans";
+  letter-spacing: 0px;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   margin-left: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   text-align: left;
   
 }
@@ -1600,12 +1606,12 @@ letter-spacing: 2px;
  
   
 color: #5D6678;
-letter-spacing: 3px;
-font-family: "open sans";
+letter-spacing: 0px;
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 margin-left: 30px;
-letter-spacing: 1px;
+letter-spacing: 0px;
 text-align: left;
 margin-bottom: 100px;
 }
@@ -1659,12 +1665,12 @@ h1 {
 font-size: 50px;
 font-weight: 100px;
 color: #5D6678;
-letter-spacing: 3px;
-font-family: "open sans";
+letter-spacing: 0px;
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
-font-weight: 300;
+font-weight: 700;
 margin-left: 30px;
-letter-spacing: 1px;
+letter-spacing: 0px;
 text-align: center;
 margin-bottom: 100px;
 }
@@ -1703,34 +1709,34 @@ margin-bottom: 100px;
   font-size: 50px;
   font-weight: 100px;
   color: #5D6678;
-letter-spacing: 3px;
-font-family: "open sans";
+letter-spacing: 0px;
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 margin-left: 30px;
-letter-spacing: 1px;
+letter-spacing: 0px;
 }
 .contenedor-articulo h2 
 {
   /**********************************************************************************************/
   font-size: 50px;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 margin-left: 30px;
 color: #5B5A5D;
-letter-spacing: 1px;
+letter-spacing: 0px;
 }
 .contenedor-articulo h3
 {
   /**********************************************************************************************/
 font-size: 60px;
-font-family: "open sans";
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 margin-left: 30px;
 color: #5B5A5D;
-letter-spacing: 1px;
+letter-spacing: 0px;
 }
 .contenedor-articulo 
 {
@@ -1749,11 +1755,11 @@ letter-spacing: 1px;
   color: #5B5A5D;    
   margin-left: 60px;
   font-size: 30px;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 margin-left: 80px;
-letter-spacing: 1px;
+letter-spacing: 0px;
 }
 .articulo:hover {
   box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
@@ -2162,9 +2168,11 @@ padding-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 100%;
   max-width: 1400px;
   margin: auto;
+  border:  #3CBDD5 5px solid;
+  margin-bottom: 59px;
 }
 
 
@@ -2177,19 +2185,13 @@ padding-top: 50px;
 .contenedor-sopor1 {
   
     box-shadow: #000;
-  width: 50%;
+  width: 90%;
   max-width: 1400px;
   margin: auto;
   overflow: hidden;
- margin-top: 0%;
-
-
-
-
-
-
- 
+ margin-top: 0%; 
 }
+
 .contenedor-sopor2>img {
   width: 250px;
   margin-right: 10%;
@@ -2236,7 +2238,7 @@ padding-top: 50px;
 
 @media screen and (max-width:800px) {
 
-
+ 
   .contenido-header2
   {   
     height: 720px;
@@ -2287,22 +2289,46 @@ padding-top: 50px;
 }
 
 @media screen and (max-width:1200px) {
+
+  .soporte {
+    /* display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1000px;
+   Ancho Original
+    
+    max-width:1200px;
+    height:inherit;
+    overflow: hidden;
+    
+    
+      margin-left: 400px;
+     margin-right: 400px; 
+     margin-bottom: 100px;*/
+     max-width: 1000px;
+    width: 600%;
+    margin:0px auto;
+    -webkit-box-shadow: -11px 7px 36px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -11px 7px 36px 1px rgba(0,0,0,0.75);
+    box-shadow: -11px 7px 36px 1px rgba(0,0,0,0.75);
+  }
   .contenedor-sopor2
   {text-align: center;
     
-    width: 80%;
- margin-right: 10px;
-    margin: auto;
-   
-  
-   justify-content: space-evenly;
-      flex-direction: column;
+    width: 100%;
+    margin-right: 10px;
+    margin: auto; 
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: #3CBDD5 5px solid;
   }
 
   .contenedor-sopor2>img {
     width: 200px;
     text-align: center;
- margin: 0% 50% 0% 50%;
+    margin: 0% 50% 0% 50%;
     
   }
 
@@ -2462,7 +2488,7 @@ padding-top: 50px;
 main .contenedor p
 {
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
@@ -2474,14 +2500,14 @@ letter-spacing: 2px;
 main .contenedor11 h2
 {
   text-align: center;
-font-family: "open sans";
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 50px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 /*padding-right: 600px;
 padding-left: 140px;
 padding-top: 100px;
@@ -2541,14 +2567,14 @@ font-size: 30px;
   font-size: 40px;
   
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   /*padding-right: 600px;
   padding-left: 140px;
   padding-top: 100px;
@@ -2561,7 +2587,7 @@ font-size: 30px;
   font-weight: 300;
   margin: 20px 0;
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 
@@ -2611,27 +2637,27 @@ margin-right: 50px;
 
 .description h1 {
    
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   
   font-size: 30px;
 }
 .description p {
   text-align: justify;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 30px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 }
 .description span {
    
@@ -2726,14 +2752,14 @@ background-image: radial-gradient(ellipse farthest-corner at 50px 1px , #3CBDD5 
 
 .layout h2
 {
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   
   font-size: 30px;
 
@@ -2741,41 +2767,41 @@ background-image: radial-gradient(ellipse farthest-corner at 50px 1px , #3CBDD5 
 .layout p
 {
   text-align: justify;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
 color: #5b5a5d;
 
 line-height: 30px;
 
-letter-spacing: 3px;
+letter-spacing: 0px;
 
 }
 
 .textos-header-hardware p
 {
-  text-align: justify;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 300;
-color: #fff;
+color: white;
+line-height: 50px;
+letter-spacing: 0px;
+text-align: justify;
+font-size: 30px;
 
-line-height: 30px;
-
-letter-spacing: 3px;
 
 }
 
 .textos-header-hardware h1
 {
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #fff;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   
   font-size: 80px;
 
@@ -2795,14 +2821,14 @@ letter-spacing: 3px;
  
  .tabla h1 {
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   /*padding-right: 600px;
   padding-left: 140px;
   padding-top: 100px;
@@ -2844,14 +2870,14 @@ letter-spacing: 3px;
 
  .containert th h1 {
   text-align: center;
-  font-family: "open sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #5b5a5d;
   
   line-height: 50px;
   
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   /*padding-right: 600px;
   padding-left: 140px;
   padding-top: 100px;
@@ -2874,14 +2900,14 @@ letter-spacing: 3px;
       -moz-box-shadow: 0 2px 2px -2px #0E1119;
            box-shadow: 0 2px 2px -2px #0E1119;
            text-align: left;
-           font-family: "open sans";
+           font-family: Arial, Helvetica, sans-serif;
            font-style: normal;
            font-weight: 300;
            color: #5b5a5d;
            
           
            
-           letter-spacing: 3px;
+           letter-spacing: 0px;
          
            font-size: 15px;
  }
@@ -2985,6 +3011,36 @@ width: 30px;
 
 
 
+.soporte {
+  /* display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  max-width:1000px;
+ Ancho Original
+  
+  max-width:1200px;
+  height:inherit;
+  overflow: hidden;
+  
+  
+    margin-left: 400px;
+   margin-right: 400px; 
+   margin-bottom: 100px;*/
+   max-width: 1000px;
+  width: 80%;
+  margin:0px auto;
+  margin-bottom: 100px;
+   -webkit-box-shadow: 20px -18px 42px 0px rgba(0,0,0,0.49);
+   -moz-box-shadow: 20px -18px 42px 0px rgba(0,0,0,0.49);
+   box-shadow: 20px -18px 42px 0px rgba(0,0,0,0.49);
+}
+
+.mainsoporte {
+
+  text-align: center;
+}
 
 
 
@@ -2994,12 +3050,62 @@ width: 30px;
 
 
 
+#subtitulos {
+
+  font-size: 50px;
+font-weight: 100px;
+color:black;
+letter-spacing: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+
+letter-spacing: 0px;
+text-align: center;
+
+  }
+
+  #subtitulos2 {
+
+    font-size: 30px;
+  font-weight: 100px;
+  color:black;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  
+  letter-spacing: 0px;
+  text-align: center;
+  
+    }
+
+    #subtituloslef {
+
+      font-size: 50px;
+    font-weight: 100px;
+    color:black;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    
+    letter-spacing: 0px;
+    text-align: left;
+    
+      }
 
 
 
+.subtitulos {
+color: #00a7ff;
+}
 
 
+.videos {
 
-
-
-
+  }
+  #videos {
+    
+     }
+     
