@@ -271,12 +271,11 @@ line-height: 50px;
 letter-spacing: 0px;
 text-align: justify;
 font-size: 30px;
-margin-right: 1000px;
-margin: 150px 600px 20px 150px;
 
-animation-duration: 3s;
-  animation-name: slidein;
-  padding: 15px 50px;
+margin: 150px 30% 20px 150px;
+
+
+ 
 }
 /*
 @keyframes slidein {
@@ -293,7 +292,7 @@ animation-duration: 3s;
     width: 100%;
     margin: 150px 600px 20px 150px;
   }
-}
+}*/
 @media screen and (max-width:1000px) {
   .introduccion{
     margin: 150px 50px 20px 50px;
@@ -302,7 +301,7 @@ animation-duration: 3s;
 
 
 }
-*/
+
 
 
 
