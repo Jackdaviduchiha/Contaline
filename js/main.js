@@ -40,6 +40,25 @@ window.addEventListener('load', function(){
     $('body').removeClass('hidden');
     menus();
 });
+
+
+/*Mostrar y ocultar los videos*/ 
+var botones1 = document.querySelectorAll('.btn-expandir')
+var texto_expandir = document.querySelectorAll('.texto_expandir')
+
+
+botones1.forEach((elemento, clave)=>{
+    elemento.addEventListener('click', () => {
+          
+          texto_expandir[clave].classList.toggle("abrir_cerrar")
+       
+
+    })
+
+});
+
+
+
 window.addEventListener('click',function(e){
     console.log(e.target);
     if(cerrado==false){
@@ -67,7 +86,7 @@ abrir.addEventListener('click', function(){
 });
 
 
-/*
+
 let listElements = document.querySelectorAll('.list__button--click');
 
 listElements.forEach(listElement => {
@@ -84,8 +103,8 @@ listElements.forEach(listElement => {
         menu.style.height = `${height}px`;
 
     })
-});*/
-/*--------------------------------------------------------------------------------------------------*/ 
+});
+
 const myslide = document.querySelectorAll('.myslide'),
 	  dot = document.querySelectorAll('.dot');
 let counter = 1;
@@ -111,6 +130,8 @@ function resetTimer() {
 	timer = setInterval(autoSlide, 8000);
 }
 
+
+
 function slidefun(n) {
 	
 	let i;
@@ -128,8 +149,8 @@ function slidefun(n) {
 	   }
 	myslide[counter - 1].style.display = "block";
 	dot[counter - 1].className += " active";
-}
 
+}
 /*hacer zoom en imagenes*/ 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -146,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let ubicacionPrincipal = window.pageYOffset; //0
 
- 
+
 AOS.init({
   
 });
@@ -228,4 +249,30 @@ $( function(){
      }) ;
  } ) ;
  
- 
+ var botones1 = document.querySelectorAll('.btn-expandir')
+var texto_expandir = document.querySelectorAll('.texto_expandir')
+
+
+botones1.forEach((elemento, clave)=>{
+    elemento.addEventListener('click', () => {
+          
+          texto_expandir[clave].classList.toggle("abrir_cerrar")
+       
+
+    })
+
+});
+
+/*efecto scrock  */
+
+window.addEventListener('scroll',function(){
+    let animacion = document.getElementById('animado')
+    let posicionObj1 = animacion.getBoundingClientRect().top;
+    console.log(posicionObj1);
+    let tamañodePantalla = window.innerHeight/3.5;
+     
+    if (posicionObj1< tamañodePantalla){
+
+        animacion.style.animation = 'mover 1s ease-out'
+    }
+})

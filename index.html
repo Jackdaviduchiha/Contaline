@@ -14,8 +14,11 @@
 	<script src="js/jquery.elevatezoom.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    
         crossorigin="anonymous">
-</head>
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <body >
 <main>
@@ -51,10 +54,10 @@
  <!--SLIDER-------------------------------------------------------------------------------------------------------->
 <section>
      <!--INFO-------------------------------------------------------------------------------------------------------->       
-     <section class="indice">
-        <div class="introduccion">
+     <section class="indice" data-aos="fade-up" data-aos-duration="2000">
+        <div class="introduccion"    >
 
-            <h1 id="subtituloslef">SACSCLOUD</h1>
+            <h1 id="subtituloslef"  >SACSCLOUD</h1>
             <p>
                 Sacscloud un sistema de punto de venta y control de inventario Para tu negocio, El sistema punto de venta más fácil e intuitivo de utilizar.
                 Realiza ventas, gestiona tus cortes de caja, envía facturas con un click, actualiza tus inventarios en automático y mucho más.
@@ -64,16 +67,16 @@
     </section>
 </section>
 
-<section class="slidercon ">
+<section class="slidercon">
     <div class="slider">
 
         <!-- fade css -->
-        <div class="myslide fade">
+        <div class="myslide fade " >
             <div class="txt">
                 <h1>PARA RESTAURANTES</h1>
                 <p>Sistema para restaurantes, con manejo de productos con insumos.</p>
             </div>
-            <img id="panel" src="img/img1.jpg" style="width: 100%; height: 100%;">
+            <img id="panel" src="img/img1.jpg" style="width: 100%; height: 100%;"  >
         </div>
         
         <div class="myslide fade">
@@ -140,18 +143,18 @@
         <h2 class="subtitulos" id="subtitulos">Características Clave</h2>
         <div class="servicio-cont">
             <div class="servicio-ind">
-                <img src="img/nube.png" alt="">
+                <img src="img/nube.png" alt="" data-aos="fade-down" data-aos-duration="2000">
                 <h3 >Acceso a la Nube</h3>
                 <p>Todos los datos de la tienda se sincronizan con la nube y se puede acceder desde cualquier dispositivo y/o sistema operativo;
                      PC, celulares, tablets, Windows, Mac, iOS, Android.</p>
             </div>
             <div class="servicio-ind">
-                <img src="img/mutidispositvo.png" alt="">
+                <img src="img/mutidispositvo.png" alt="" data-aos="fade-down" data-aos-duration="2000">
                 <h3>Multidispositivo</h3>
                 <p>Gestiona tu negocio sin importar tu dispositivo o el lugar donde te encuentres, solo necesitas una conexión a internet.</p>
             </div>
             <div class="servicio-ind">
-                <img src="img/precio-bajo.png" alt="">
+                <img src="img/precio-bajo.png" alt="" data-aos="fade-down" data-aos-duration="2000" >
                 <h3>Bajo Costo de Inversión</h3>
                 <p>Inversión accesible.</p>
             </div>
@@ -163,19 +166,19 @@
         <div class="servicio-cont">
           
             <div class="servicio-ind">
-                <img src="img/software.png" alt="">
+                <img src="img/software.png" alt="" data-aos="fade-down" data-aos-duration="2000">
                 <h3>Actualizaciones del software</h3>
                 <p>El software se actualiza continuamente y sin costo alguno.</p>
 
             </div>
             <div class="servicio-ind">
-                <img src="img/dispositivos.png" alt="">
+                <img src="img/dispositivos.png" data-aos="fade-down" data-aos-duration="2000">
                 <h3>Dispositivos compatibles</h3>
                 <p>Vende en tu tienda física a través de un iPad, Mac, celular, tablets o PC. </p>
                 
             </div>
             <div class="servicio-ind">
-                <img src="img/cuenta.png" alt="">
+                <img src="img/cuenta.png" alt="" data-aos="fade-down" data-aos-duration="2000" >
                 <h3>Facturación </h3>
                 <p>Genera factura, facturas con todos los campos solicitados por la SAR. </p>
                 
@@ -189,26 +192,25 @@
 
 <br><br><br><br>
 <section  class="about-services-blanco">
-    <div class="contenedorinv">
-        <section class="layout">
-            <div>
-                
+    
+      
+
+          
+          <div class="portadas" data-aos="fade-up" data-aos-duration="2000">
+            <div class="portada" >
                 <h2 id="subtituloslef" >Control de inventarios</h2>
-                <p>Elimina de raíz el <strong>ROBO HORMIGA</strong> y controla tus inventarios sin importar donde te encuentres, actualiza tus existencias, 
+                <p  id="parrafos" >Elimina de raíz el <strong>ROBO HORMIGA</strong> y controla tus inventarios sin importar donde te encuentres, actualiza tus existencias, 
                     lleva un registro completo de cada transacción, realiza conteos físicos y aumenta la utilidad de tu negocio con un control completamente automatizado.</p>
             </div>
             <div>
-                <img src="img/inventario.png" alt="inventario">
-            </div>
-          </section>
-
-
-
-    </div>
+            <img src="img/inventario.png" alt="inventario" data-aos="fade-up" data-aos-duration="2000">
+             </div>
+        </div>
+ 
 </section>
 <!--inventario listado-------------------------------------------------------------------------------------------------------------------->  
 <section  class="about-services-blanco">
-    <div class="contenedorinv3">
+    <div class="contenedorinv3" data-aos="fade-left" data-aos-duration="2000">
         <div class="contenedorinv2">
             <h2 id="subtitulos2">Opciones de inventario</h2>
             <ol id="lista2">
@@ -279,21 +281,20 @@
 
 <!--Cotizaciones-------------------------------------------------------------------------------------------------------------------->  
 <section  class="about-services-cafe">
-    <div class="contenedorinv">
-        <section class="layout">
-            <div>
-                
+    <div class="portadas" data-aos="fade-up" data-aos-duration="2000">
+        <div class="portada">
                 <h2 id="subtituloslef">Cotizaciones</h2>
-                <p>Realiza cotizaciones para tus clientes con fecha de expiración en segundos, solo agrega los productos o servicios y envíala por correo o imprímela de acuerdo con tus necesidades.</p>
-            </div>
-            <div>
-                <img src="img/inventario.png" alt="inventario">
-            </div>
+                <p id="parrafos" >Realiza cotizaciones para tus clientes con fecha de expiración en segundos, solo agrega los productos o servicios y envíala por correo o imprímela de acuerdo con tus necesidades.</p>
+         </div>
+                <div>
+                <img src="img/inventario.png" alt="inventario" data-aos="zoom-out-up" data-aos-duration="2000">
+             </div>
           </section>
 
     </div>
    
 </section>
+
 <!--cAPTURAS DE COTIZACIONES-------------------------------------------------------------------------------------------------------------------->  
 <section  class="about-services-cafe">
     <div class="row">
@@ -335,22 +336,20 @@
 <!--Gestion de clientes-------------------------------------------------------------------------------------------------------------------->  
 
 <section  class="about-services-blanco" >
-<div class="contenedorinv">
-    <section class="layout">
-        <div>
-            
+    <div class="portadas"data-aos="fade-up" data-aos-duration="2000">
+        <div class="portada">
             <h2 id="subtituloslef">Gestión de clientes </h2>
-            <p>Registra y actualiza los detalles de contacto del cliente, asigne ventas y haga seguimiento del historial de compras.</p>
+            <p id="parrafos" >Registra y actualiza los detalles de contacto del cliente, asigne ventas y haga seguimiento del historial de compras.</p>
         </div>
-        <div>
+         <div>
             
         </div>
-      </section>
-</div>
+     
+    </div>
 </section>
 <section  class="about-services-blanco">
     <div class="contenedorinv3">
-        <div class="contenedorinv2">
+        <div class="contenedorinv2" data-aos="fade-left" data-aos-duration="2000">
             <br>
             <h2 id="subtitulos2">Opciones de Clientes</h2>
             <ol id="lista2">
@@ -398,22 +397,20 @@
 </section>
   <!----Reportes------------------------------------------------------------------------------------------------------------------------------------------>  
 <section  class="about-services-cafe" >
-    <div class="contenedorinv">
-        <section class="layout">
-            <div>
-                
+    <div class="portadas" data-aos="fade-up" data-aos-duration="2000">
+        <div class="portada">
                 <h2 id="subtituloslef">Reportes Definidos en Sistema</h2>
-                <p>Genera reportes para visualizar como van las ventas, Comprueba las estadísticas clave desde cualquier lugar, en cualquier momento y en cualquier dispositivo.</p>
-            </div>
-            <div>
+                <p id="parrafos">Genera reportes para visualizar como van las ventas, Comprueba las estadísticas clave desde cualquier lugar, en cualquier momento y en cualquier dispositivo.</p>
+        </div>
+        <div>
                 
-            </div>
-          </section>
+        </div>
+          
     </div>
     </section>
     <section  class="about-services-cafe">
         <div class="contenedorinv3">
-            <div class="contenedorinv2">
+            <div class="contenedorinv2" data-aos="fade-left" data-aos-duration="2000">
                 <h2>Opciones de los reportes</h2>
                 <ol id="lista2">
                     
@@ -443,16 +440,17 @@
     
                  </div>
                 <div class="imagenessecundarias">
-                <div class="car1">
-                    <img src="img/reporte.png" alt="">
-                </div >
-                <div class="car2"> 
-                   <img src="img/" alt="">
-                  
-                </div>
-                <div class="car1"> 
-                    <img src="img/Reporte2.png" alt="">
-                   
+                            <div class="car1">
+                                <img src="img/reporte.png" alt="">
+                            </div >
+
+                            <div class="car2"> 
+                            <img src="img/" alt="">
+                            
+                            </div>
+                            <div class="car1"> 
+                                <img src="img/Reporte2.png" alt="">
+                            
                  </div>
                
         </div>
@@ -480,13 +478,13 @@
     </div>
     <div class="partFooter1">
             <h4>CONTÁCTANOS</h4>
-            <a href="#">(504) 2272-7200</a>
-            <a href="#">(504) 9990-2721</a>
-            <a href="#">info@grupoexa.hn</a>
-            <a href="#">Tegucigalpa, Edificio Metrópolis Torre II, piso No. 18, local N°.21807.</a>
+            <a href="tel:+50422727200">(504) 2272-7200</a>
+            <a href="tel:+50499902721">(504) 9990-2721</a>
+            <a href="mailto:info@grupoexa.hn">info@grupoexa.hn</a>
+            <a href="https://goo.gl/maps/yUEXz2VktmsMjweZ7">Tegucigalpa, Edificio Metrópolis Torre II, piso No. 18, local N°.21807.</a>
      </div>
     <div class="partFooter1">
-            <h4>Redes sociales</h4>
+           <!--  <h4>Redes sociales</h4>
             <div class="social-media">
                 <div style="display: flex;">
                 <a href="https://www.facebook.com/infoContaline/"> <i class="fab fa-facebook-f"></i></a>
@@ -494,8 +492,8 @@
                
                 </div>
             </div>
-        </div>
-
+        </div>-->
+        <img src="img/GIF D.gif" alt="" class="parner">
     </div>    
     
     </footer>
@@ -511,6 +509,14 @@
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/22569610.js"></script>
  <!-- End of HubSpot Embed Code -->
+
+    
+    
+ 
+   
+    
+
+ 
 
 
       <!-- Start of grupoexahelp Zendesk Widget script 
