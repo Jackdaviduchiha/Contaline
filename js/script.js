@@ -20,3 +20,7 @@ window.addEventListener('scroll',function(){
        animacion.style.animation = 'mover 1s ease-out'
    }
 })
+
+
+
+

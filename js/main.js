@@ -1,5 +1,8 @@
-// Variables
 
+// efecto carruzel en cotizaciones--------------------------------------------------------------------------------------------------
+
+
+// Variables--------------------------------------------------------------------------------------------------
 let nav = document.getElementById('nav');
 let menu = document.getElementById('enlaces');
 let abrir = document.getElementById('open');
@@ -42,7 +45,7 @@ window.addEventListener('load', function(){
 });
 
 
-/*Mostrar y ocultar los videos*/ 
+/*Mostrar y ocultar los videos--------------------------------------------------------------------------------------------------*/ 
 var botones1 = document.querySelectorAll('.btn-expandir')
 var texto_expandir = document.querySelectorAll('.texto_expandir')
 
@@ -151,7 +154,7 @@ function slidefun(n) {
 	dot[counter - 1].className += " active";
 
 }
-/*hacer zoom en imagenes*/ 
+/*hacer zoom en imagenes--------------------------------------------------------------------------------------------------*/ 
 
 document.addEventListener('DOMContentLoaded', () => {
 	const imgLightBox = document.querySelectorAll('.materialboxed');
@@ -276,3 +279,4 @@ window.addEventListener('scroll',function(){
         animacion.style.animation = 'mover 1s ease-out'
     }
 })
+
