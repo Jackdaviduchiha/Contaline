@@ -847,6 +847,9 @@ body {
 	transform: translate(-50%);
 	bottom: 20px;
 	cursor: pointer;
+  text-align: center;
+
+ 
 }
 .dot{
 	display: inline-block;
@@ -856,6 +859,7 @@ body {
 	border-radius: 50%;
 	margin: 0 10px;
 	cursor: pointer;
+
 }
 /* /2 */
 
@@ -949,6 +953,18 @@ body {
 @media screen and (max-width: 800px){
   .slidercon .slider{
     height: 500px;
+  }
+
+  .dotsbox{
+    bottom:0px;
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+  
+   
   }
   body {
 
